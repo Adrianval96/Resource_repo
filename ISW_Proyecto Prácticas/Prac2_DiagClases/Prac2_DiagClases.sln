@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Prac2_DiagClases", "Prac2_DiagClases\Prac2_DiagClases.modelproj", "{0055FE22-D095-4B41-9A25-B966BBCBEA90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0055FE22-D095-4B41-9A25-B966BBCBEA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0055FE22-D095-4B41-9A25-B966BBCBEA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0055FE22-D095-4B41-9A25-B966BBCBEA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0055FE22-D095-4B41-9A25-B966BBCBEA90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://2016-upv-isw-3flip-equipo42.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Prac2_DiagClases\\Prac2_DiagClases.modelproj
+		SccProjectName1 = Prac2_DiagClases
+		SccLocalPath1 = Prac2_DiagClases
+	EndGlobalSection
+EndGlobal

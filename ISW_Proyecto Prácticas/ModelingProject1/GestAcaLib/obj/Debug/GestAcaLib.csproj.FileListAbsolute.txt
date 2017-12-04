@@ -1,0 +1,10 @@
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\GestAcaLib.dll.config
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\GestAcaLib.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\GestAcaLib.pdb
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\EntityFramework.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\EntityFramework.SqlServer.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\EntityFramework.xml
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\bin\Debug\EntityFramework.SqlServer.xml
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\obj\Debug\GestAcaLib.csprojResolveAssemblyReference.cache
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\obj\Debug\GestAcaLib.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\GestAcaLib\obj\Debug\GestAcaLib.pdb

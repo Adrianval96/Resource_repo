@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{0275FFA7-8A86-4335-AD40-9FB5343E443F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{29102FD8-F514-4343-A61D-3AC15A3669AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{A433B031-6BA0-4289-8F9E-FD753B51E7B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{529A5BF9-FF4E-4A47-96E8-022140C9E44B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{545D621C-6CAC-4E21-8282-F952F2CCC025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{3BD8373A-2499-4E18-9C64-C84308D096CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWoldApp", "ConsoleApplication1\HelloWoldApp.csproj", "{B132228D-490E-4FEC-A80B-52A6E07605BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestAcaLib", "GestAcaLib\GestAcaLib.csproj", "{E33BDE4C-B294-466E-9903-A8C18EAA96F6}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "GestAcaModel", "GestAcaLib\GestAcaModel.modelproj", "{DE17CD00-E0B9-4715-9FA7-025502C75D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestAcaModelLib", "GestAcaModelLib\GestAcaModelLib.csproj", "{F54B0D42-765A-4739-88E8-24D753254A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test DAO-DAL", "Test DAO-DAL\Test DAO-DAL.csproj", "{CABF3F3C-A9B9-414C-83F7-2FC8FB6BC3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicTest", "BusinessLogicTest", "{7094DFDC-966D-4125-8AF9-D44DB1B91418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicTestApp", "BusinessLogicTest\BusinessLogicTestApp.csproj", "{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestAcaUI", "ISWVehicleRentalExampleUI\GestAcaUI.csproj", "{F67086A0-7248-46F9-A41F-A825C8BA61E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0275FFA7-8A86-4335-AD40-9FB5343E443F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0275FFA7-8A86-4335-AD40-9FB5343E443F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0275FFA7-8A86-4335-AD40-9FB5343E443F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0275FFA7-8A86-4335-AD40-9FB5343E443F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B132228D-490E-4FEC-A80B-52A6E07605BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B132228D-490E-4FEC-A80B-52A6E07605BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B132228D-490E-4FEC-A80B-52A6E07605BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B132228D-490E-4FEC-A80B-52A6E07605BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33BDE4C-B294-466E-9903-A8C18EAA96F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33BDE4C-B294-466E-9903-A8C18EAA96F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33BDE4C-B294-466E-9903-A8C18EAA96F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33BDE4C-B294-466E-9903-A8C18EAA96F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54B0D42-765A-4739-88E8-24D753254A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54B0D42-765A-4739-88E8-24D753254A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54B0D42-765A-4739-88E8-24D753254A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54B0D42-765A-4739-88E8-24D753254A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABF3F3C-A9B9-414C-83F7-2FC8FB6BC3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABF3F3C-A9B9-414C-83F7-2FC8FB6BC3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABF3F3C-A9B9-414C-83F7-2FC8FB6BC3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABF3F3C-A9B9-414C-83F7-2FC8FB6BC3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67086A0-7248-46F9-A41F-A825C8BA61E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67086A0-7248-46F9-A41F-A825C8BA61E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67086A0-7248-46F9-A41F-A825C8BA61E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67086A0-7248-46F9-A41F-A825C8BA61E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{529A5BF9-FF4E-4A47-96E8-022140C9E44B} = {A433B031-6BA0-4289-8F9E-FD753B51E7B0}
+		{3BD8373A-2499-4E18-9C64-C84308D096CD} = {545D621C-6CAC-4E21-8282-F952F2CCC025}
+		{B132228D-490E-4FEC-A80B-52A6E07605BC} = {3BD8373A-2499-4E18-9C64-C84308D096CD}
+		{E33BDE4C-B294-466E-9903-A8C18EAA96F6} = {A433B031-6BA0-4289-8F9E-FD753B51E7B0}
+		{CABF3F3C-A9B9-414C-83F7-2FC8FB6BC3CE} = {545D621C-6CAC-4E21-8282-F952F2CCC025}
+		{7094DFDC-966D-4125-8AF9-D44DB1B91418} = {545D621C-6CAC-4E21-8282-F952F2CCC025}
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A} = {7094DFDC-966D-4125-8AF9-D44DB1B91418}
+		{F67086A0-7248-46F9-A41F-A825C8BA61E5} = {29102FD8-F514-4343-A61D-3AC15A3669AB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://2016-upv-isw-3flip-equipo42.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ModelingProject1\\ModelingProject1.modelproj
+		SccProjectName1 = ModelingProject1
+		SccLocalPath1 = ModelingProject1
+		SccProjectUniqueName2 = ConsoleApplication1\\HelloWoldApp.csproj
+		SccProjectTopLevelParentUniqueName2 = ProyectoSoftwareApp.sln
+		SccProjectName2 = ConsoleApplication1
+		SccLocalPath2 = ConsoleApplication1
+		SccProjectUniqueName3 = GestAcaLib\\GestAcaLib.csproj
+		SccProjectTopLevelParentUniqueName3 = ProyectoSoftwareApp.sln
+		SccProjectName3 = GestAcaLib
+		SccLocalPath3 = GestAcaLib
+		SccProjectUniqueName4 = GestAcaLib\\GestAcaModel.modelproj
+		SccProjectName4 = GestAcaLib
+		SccLocalPath4 = GestAcaLib
+		SccProjectUniqueName5 = GestAcaModelLib\\GestAcaModelLib.csproj
+		SccProjectName5 = GestAcaModelLib
+		SccLocalPath5 = GestAcaModelLib
+		SccProjectUniqueName6 = Test\u0020DAO-DAL\\Test\u0020DAO-DAL.csproj
+		SccProjectTopLevelParentUniqueName6 = ProyectoSoftwareApp.sln
+		SccProjectName6 = Test\u0020DAO-DAL
+		SccLocalPath6 = Test\u0020DAO-DAL
+		SccProjectUniqueName7 = BusinessLogicTest\\BusinessLogicTestApp.csproj
+		SccProjectTopLevelParentUniqueName7 = ProyectoSoftwareApp.sln
+		SccProjectName7 = BusinessLogicTest
+		SccLocalPath7 = BusinessLogicTest
+		SccProjectUniqueName8 = ISWVehicleRentalExampleUI\\GestAcaUI.csproj
+		SccProjectTopLevelParentUniqueName8 = ProyectoSoftwareApp.sln
+		SccProjectName8 = ISWVehicleRentalExampleUI
+		SccLocalPath8 = ISWVehicleRentalExampleUI
+	EndGlobalSection
+EndGlobal

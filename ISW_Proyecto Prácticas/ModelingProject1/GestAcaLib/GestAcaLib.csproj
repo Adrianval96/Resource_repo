@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E33BDE4C-B294-466E-9903-A8C18EAA96F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GestAcaLib</RootNamespace>
+    <AssemblyName>GestAcaLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BussinessLogic\BusinessController.cs" />
+    <Compile Include="BussinessLogic\BusinessLogicException.cs" />
+    <Compile Include="BussinessLogic\Entities\Absence.cs" />
+    <Compile Include="BussinessLogic\Entities\Course.cs" />
+    <Compile Include="BussinessLogic\Entities\Enrollment.cs" />
+    <Compile Include="BussinessLogic\Entities\Office.cs" />
+    <Compile Include="BussinessLogic\Entities\Person.cs" />
+    <Compile Include="BussinessLogic\Entities\Student.cs" />
+    <Compile Include="BussinessLogic\Entities\TaughtCourse.cs" />
+    <Compile Include="BussinessLogic\Entities\Teacher.cs" />
+    <Compile Include="Persistence\AbscenceDAOImp.cs" />
+    <Compile Include="Persistence\Entities\Absence.cs" />
+    <Compile Include="Persistence\Entities\Course.cs" />
+    <Compile Include="Persistence\CourseDAOImp.cs" />
+    <Compile Include="Persistence\Entities\Enrollment.cs" />
+    <Compile Include="Persistence\EnrollmentDAOImp.cs" />
+    <Compile Include="Persistence\Entities\Office.cs" />
+    <Compile Include="Persistence\Entities\Person.cs" />
+    <Compile Include="Persistence\Entities\Student.cs" />
+    <Compile Include="Persistence\Entities\TaughtCourse.cs" />
+    <Compile Include="Persistence\Entities\Teacher.cs" />
+    <Compile Include="Persistence\GestAcaLibDAL.cs" />
+    <Compile Include="Persistence\IAbsenceDAO.cs" />
+    <Compile Include="Persistence\ICourseDAO.cs" />
+    <Compile Include="Persistence\IEnrollmentDAO.cs" />
+    <Compile Include="Persistence\IOfficeDAO.cs" />
+    <Compile Include="Persistence\IPersonDAO.cs" />
+    <Compile Include="Persistence\IStudentDAO.cs" />
+    <Compile Include="Persistence\ITaughtCourseDAO.cs" />
+    <Compile Include="Persistence\ITeacherDAO.cs" />
+    <Compile Include="Persistence\OfficeDAOImp.cs" />
+    <Compile Include="Persistence\PersonDAOImp.cs" />
+    <Compile Include="Persistence\StudentDAOImp.cs" />
+    <Compile Include="Persistence\TaughtCourseDAOImp.cs" />
+    <Compile Include="Persistence\TeacherDAOImp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

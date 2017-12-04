@@ -1,0 +1,12 @@
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\BusinessLogicTestApp.exe.config
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\BusinessLogicTestApp.exe
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\BusinessLogicTestApp.pdb
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\EntityFramework.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\EntityFramework.SqlServer.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\GestAcaLib.dll
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\GestAcaLib.pdb
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\EntityFramework.xml
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\bin\Debug\EntityFramework.SqlServer.xml
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\obj\Debug\BusinessLogicTestApp.csprojResolveAssemblyReference.cache
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\obj\Debug\BusinessLogicTestApp.exe
+E:\Bibliotecas\Documentos\Universidad\2016-17\ISW\Proyecto Prácticas\ModelingProject1\BusinessLogicTest\obj\Debug\BusinessLogicTestApp.pdb

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F67086A0-7248-46F9-A41F-A825C8BA61E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISWVehicleRentalExampleUI</RootNamespace>
+    <AssemblyName>ISWVehicleRentalExampleUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddTaughtCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTaughtCourse.Designer.cs">
+      <DependentUpon>AddTaughtCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewCourse.Designer.cs">
+      <DependentUpon>AddNewCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentToDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentToDatabase.Designer.cs">
+      <DependentUpon>AddStudentToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignStudentToCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignStudentToCourse.Designer.cs">
+      <DependentUpon>AssignStudentToCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignTeacherSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignTeacherSelection.Designer.cs">
+      <DependentUpon>AssignTeacherSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckedTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GestAcaApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestAcaApp.Designer.cs">
+      <DependentUpon>GestAcaApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddTaughtCourse.resx">
+      <DependentUpon>AddTaughtCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewCourse.resx">
+      <DependentUpon>AddNewCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentToDatabase.resx">
+      <DependentUpon>AddStudentToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignStudentToCourse.resx">
+      <DependentUpon>AssignStudentToCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignTeacherSelection.resx">
+      <DependentUpon>AssignTeacherSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestAcaApp.resx">
+      <DependentUpon>GestAcaApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\GestAcaLib.Entities.Course.datasource" />
+    <None Include="Properties\DataSources\GestAcaLib.Entities.TaughtCourse.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicTest\BusinessLogicTestApp.csproj">
+      <Project>{e12bb409-ebfd-4ba1-b57d-3bbf1a07998a}</Project>
+      <Name>BusinessLogicTestApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestAcaLib\GestAcaLib.csproj">
+      <Project>{E33BDE4C-B294-466E-9903-A8C18EAA96F6}</Project>
+      <Name>GestAcaLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
